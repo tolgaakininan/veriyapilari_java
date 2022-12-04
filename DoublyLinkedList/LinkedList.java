@@ -1,7 +1,7 @@
 public class LinkedList {
-    Node head;
-    Node tail;
-    int size;
+    private Node head;
+    private Node tail;
+    private int size;
     public void add_front(int data)
     {
         Node new_node=new Node(data);
