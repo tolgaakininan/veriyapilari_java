@@ -24,6 +24,7 @@ public class Queue {
         if(isEmpty())
         {
             System.out.println("List is empty");
+            return;
         }
         for(int i=0;i<size-1;i++)
         {
@@ -36,6 +37,7 @@ public class Queue {
         if(isEmpty())
         {
             System.out.println("List is empty");
+            return;
         }
         for(int i=0;i<size;i++)
         {
